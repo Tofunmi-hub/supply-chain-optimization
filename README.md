@@ -38,8 +38,11 @@ pip install cvxpy numpy
 | C3       | 40     |
 
 Optimization Results
+
 Optimal Cost
+
 Total Cost: $820.00
+
 Shipment Plan
 | From | To | Units | Cost per Unit |
 | ---- | -- | ----- | ------------- |
