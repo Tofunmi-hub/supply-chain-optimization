@@ -5,31 +5,25 @@ This project implements a linear programming transportation model to minimize di
 
 The objective is to determine the optimal shipment quantities that:
 
-Minimize total transportation cost
+- Minimize total transportation cost
 
-Respect factory production capacities
+- Respect factory production capacities
 
-Fully satisfy customer demand
+- Fully satisfy customer demand
 
-The model is implemented in Python using CVXPy.
-
-
-Tools
-
-Python
-
-NumPy
-
-CVXPy
-
-(Optional) NetworkX & Matplotlib for visualization
+- The model is implemented in Python using CVXPy.
 
 
-## Extensions
+Tools:
 
-- Add warehouse layer (multi-echelon network)
-- Introduce variable transportation scenarios
-- Consider demand uncertainty
+- Python
+
+- NumPy
+
+- CVXPy
+
+- (Optional) NetworkX & Matplotlib for visualization
+
 
 Problem Data
 Factory Capacities
@@ -56,13 +50,13 @@ Minimize total transportation cost:
 
 min ∑_f,c cost_fc .x_fc
 
-Subject to
+Subject to:
 
-Factory capacity constraints
+- Factory capacity constraints
 
-Customer demand satisfaction
+- Customer demand satisfaction
 
-Non-negativity constraints
+- Non-negativity constraints
 
 
 Optimization Results
@@ -101,11 +95,11 @@ C2: 70 / 70
 C3: 40 / 40
 
 
-Business Interpretation
+Business Interpretation:
 
-Factory F2 operates at full capacity, indicating that it provides a cost advantage on key transportation routes. Factory F1 retains spare capacity, suggesting flexibility to absorb potential future demand increases.
+- Factory F2 operates at full capacity, indicating that it provides a cost advantage on key transportation routes. Factory F1 retains spare capacity, suggesting flexibility to absorb potential future demand increases.
 
-All customer demand is satisfied at minimum total cost, demonstrating the effectiveness of linear optimization for operational planning and logistics decision-making.
+- All customer demand is satisfied at minimum total cost, demonstrating the effectiveness of linear optimization for operational planning and logistics decision-making.
 
 
  Extensions
