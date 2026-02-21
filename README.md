@@ -106,3 +106,10 @@ Business Interpretation
 Factory F2 operates at full capacity, indicating that it provides a cost advantage on key transportation routes. Factory F1 retains spare capacity, suggesting flexibility to absorb potential future demand increases.
 
 All customer demand is satisfied at minimum total cost, demonstrating the effectiveness of linear optimization for operational planning and logistics decision-making.
+
+
+ Extensions
+
+- Add warehouse layer (multi-echelon network)
+- Introduce variable transportation scenarios
+- Consider demand uncertainty
