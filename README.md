@@ -25,6 +25,12 @@ CVXPy
 (Optional) NetworkX & Matplotlib for visualization
 
 
+## Extensions
+
+- Add warehouse layer (multi-echelon network)
+- Introduce variable transportation scenarios
+- Consider demand uncertainty
+
 Problem Data
 Factory Capacities
 
