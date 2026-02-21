@@ -27,6 +27,15 @@ Non-negativity constraints
 
 pip install cvxpy numpy
 
+| Factory | Capacity |
+| ------- | -------- |
+| F1      | 100      |
+| F2      | 80       |
+| Customer | Demand |
+| -------- | ------ |
+| C1       | 50     |
+| C2       | 70     |
+| C3       | 40     |
 
 ==================================================
 TRANSPORTATION NETWORK DETAILS
