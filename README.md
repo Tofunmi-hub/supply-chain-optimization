@@ -25,6 +25,19 @@ Tools:
 - (Optional) NetworkX & Matplotlib for visualization
 
 
+Project Structure
+
+- supply_chain_model.py  → optimization model & visualization
+- requirements.txt       → dependencies
+
+Model Assumptions
+
+- Transportation cost is linear per unit.
+- All demand must be satisfied.
+- Production capacities are fixed.
+- No storage or intermediate warehouses are included.
+
+
 Problem Data
 Factory Capacities
 
