@@ -101,6 +101,14 @@ Business Interpretation:
 
 - All customer demand is satisfied at minimum total cost, demonstrating the effectiveness of linear optimization for operational planning and logistics decision-making.
 
+Real-World Relevance
+
+Transportation optimization models like this form the foundation of advanced route planning and logistics systems used in industries such as energy distribution and supply chain management. Extensions of this model can incorporate traffic data, fuel consumption metrics, and environmental impact constraints to support sustainable operational decision-making.
+
+
+Fuel Cost Sensitivity Analysis
+
+To simulate real-world fuel price fluctuations, transportation costs were scaled by multipliers ranging from 1.0 to 1.3. As fuel cost increases, total operational cost rises proportionally, illustrating the impact of energy price volatility on logistics planning.
 
  Extensions
 
@@ -108,6 +116,3 @@ Business Interpretation:
 - Introduce variable transportation scenarios
 - Consider demand uncertainty
 
-Real-World Relevance
-
-Transportation optimization models like this form the foundation of advanced route planning and logistics systems used in industries such as energy distribution and supply chain management. Extensions of this model can incorporate traffic data, fuel consumption metrics, and environmental impact constraints to support sustainable operational decision-making.
