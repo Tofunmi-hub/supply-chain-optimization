@@ -235,6 +235,34 @@ if __name__ == "__main__":
     fig2 = create_animated_visualization(flows, cost, capacity, demand)
     plt.show()
 
+       #
+    fuel_multipliers = [1.0, 1.1, 1.2, 1.3]
+
+for alpha in fuel_multipliers:
+    print("\n====================================")
+    print(f"Fuel Cost Multiplier: {alpha}")
+    print("====================================")
+    
+    adjusted_cost = alpha * cost
+    
+    x = cp.Variable((len(factories), len(customers)), nonneg=True)
+    
+    objective = cp.Minimize(cp.sum(cp.multiply(adjusted_cost, x)))
+    
+    constraints = []
+    
+    for f in range(len(factories)):
+        constraints.append(cp.sum(x[f, :]) <= capacity[f])
+    
+    for c in range(len(customers)):
+        constraints.append(cp.sum(x[:, c]) == demand[c])
+    
+    problem = cp.Problem(objective, constraints)
+    problem.solve()
+    
+    print("Total Cost:", round(problem.value, 2))
+
+
     # Print detailed results
     print("\n" + "="*50)
     print("TRANSPORTATION NETWORK DETAILS")
@@ -266,29 +294,4 @@ if __name__ == "__main__":
         received = np.sum(flows[:, j])
         print(f"{c} demand: {received:.0f}/{demand[j]} units satisfied")
 
-    #
-    fuel_multipliers = [1.0, 1.1, 1.2, 1.3]
-
-for alpha in fuel_multipliers:
-    print("\n====================================")
-    print(f"Fuel Cost Multiplier: {alpha}")
-    print("====================================")
-    
-    adjusted_cost = alpha * cost
-    
-    x = cp.Variable((len(factories), len(customers)), nonneg=True)
-    
-    objective = cp.Minimize(cp.sum(cp.multiply(adjusted_cost, x)))
-    
-    constraints = []
-    
-    for f in range(len(factories)):
-        constraints.append(cp.sum(x[f, :]) <= capacity[f])
-    
-    for c in range(len(customers)):
-        constraints.append(cp.sum(x[:, c]) == demand[c])
-    
-    problem = cp.Problem(objective, constraints)
-    problem.solve()
-    
-    print("Total Cost:", round(problem.value, 2))
+ 
