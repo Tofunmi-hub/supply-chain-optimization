@@ -170,6 +170,7 @@ Minor fuel fluctuations do not justify rerouting.
 
 However, as fuel costs increase further (≥ 1.2), total cost rises significantly, showing growing economic pressure on the network. The system becomes increasingly sensitive to cost shocks.
 
+
 Because F2 operates at full capacity in the baseline solution, the model has limited flexibility to drastically reroute flows without structural changes (e.g., capacity expansion or new facilities).
 
 2. Does F1 utilization increase? No.
