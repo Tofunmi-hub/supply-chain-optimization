@@ -123,8 +123,12 @@ Fuel Cost Sensitivity Analysis
 
 To simulate real-world fuel price fluctuations, transportation costs were scaled by multipliers ranging from 1.0 to 1.3. As fuel cost increases, total operational cost rises proportionally, illustrating the impact of energy price volatility on logistics planning.
 
+Visualization 
 
-Scenario Analysis: Fuel Price Sensitivity
+
+
+S<img width="1191" height="790" alt="download" src="https://github.com/user-attachments/assets/3ef1498b-3f47-4663-aae9-2fb9aee0a39f" />
+cenario Analysis: Fuel Price Sensitivity
 
 To evaluate the robustness of the transportation network under energy price volatility, a fuel cost sensitivity analysis was conducted.
 
