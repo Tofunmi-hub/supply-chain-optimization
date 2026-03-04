@@ -22,7 +22,7 @@ Tools:
 
 - CVXPy
 
-- (Optional) NetworkX & Matplotlib for visualization
+- NetworkX visualization
 
 
 Project Structure
