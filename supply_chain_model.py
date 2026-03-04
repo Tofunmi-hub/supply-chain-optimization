@@ -161,7 +161,7 @@ def visualize_transportation_network(G, factories, customers,
     plt.tight_layout()
     return fig, ax
 
-def create_animated_visualization(flows, costs, capacity, demand):
+def create_comparison_visualization(flows, costs, capacity, demand):
     """
     Create multiple visualizations to compare scenarios
     """
