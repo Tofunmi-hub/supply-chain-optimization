@@ -107,3 +107,7 @@ Business Interpretation:
 - Add warehouse layer (multi-echelon network)
 - Introduce variable transportation scenarios
 - Consider demand uncertainty
+
+Real-World Relevance
+
+Transportation optimization models like this form the foundation of advanced route planning and logistics systems used in industries such as energy distribution and supply chain management. Extensions of this model can incorporate traffic data, fuel consumption metrics, and environmental impact constraints to support sustainable operational decision-making.
