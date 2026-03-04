@@ -127,8 +127,11 @@ Visualization
 
 
 
-S<img width="1191" height="790" alt="download" src="https://github.com/user-attachments/assets/3ef1498b-3f47-4663-aae9-2fb9aee0a39f" />
-cenario Analysis: Fuel Price Sensitivity
+<img width="1191" height="790" alt="download" src="https://github.com/user-attachments/assets/3ef1498b-3f47-4663-aae9-2fb<img width="571" height="455" alt="download" src="https://github.com/user-attachments/assets/063a86bf-5cf8-4cb1-836c-47db081b0c11" />
+9aee0a39f" />
+
+
+Scenario Analysis: Fuel Price Sensitivity
 
 To evaluate the robustness of the transportation network under energy price volatility, a fuel cost sensitivity analysis was conducted.
 
