@@ -63,15 +63,20 @@ Minimize total transportation cost:
 
 
 Decision Variables:
+
 x_fc ≥ 0   (shipment from factory f to customer c)
 
 Objective:
+
 minimize  ∑_{f,c} c_fc x_fc
 
 Subject to:
+
 ∑_c x_fc ≤ capacity_f      (Factory capacity constraints)
+
 ∑_f x_fc = demand_c        (Demand satisfaction constraints)
-- Non-negativity constraints
+
+Non-negativity constraints
 
 
 Optimization Results
