@@ -273,6 +273,9 @@ if __name__ == "__main__":
         problem.solve()
 
         cost_results.append(problem.value)
+        print(f"\nFuel Multiplier: {alpha}")
+        print("New shipment matrix:")
+        print(np.round(x.value, 2))
 
     plt.figure()
     plt.plot(fuel_multipliers, cost_results)
