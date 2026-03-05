@@ -168,7 +168,7 @@ The baseline solution is structurally stable.
 
 Minor fuel fluctuations do not justify rerouting.
 
-However, as fuel costs increase further (≥ 1.2), total cost rises significantly, showing growing economic pressure on the network. The system becomes increasingly sensitive to cost shocks.
+However, as fuel costs increase further (≥ 1.2) beyond 20%, total cost xhibits increasing sensitivity, indicating threshold-driven cost escalation due to heterogeneous exposure and binding capacity constraints. i.e showing growing economic pressure on the network. The system becomes increasingly sensitive to cost shocks.
 
 
 Because F2 operates at full capacity in the baseline solution, the model has limited flexibility to drastically reroute flows without structural changes (e.g., capacity expansion or new facilities).
